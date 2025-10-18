@@ -1,0 +1,22 @@
+{
+  "simple_actions": [
+    "clapping",
+    "waving",
+    "standing",
+    "walking",
+    "sitting",
+    "jumping"
+  ],
+  "ucf101_subset": [
+    "ApplyEyeMakeup",
+    "ApplyLipstick", 
+    "Archery",
+    "BabyCrawling",
+    "BalanceBeam",
+    "BandMarching",
+    "BaseballPitch",
+    "Basketball",
+    "BasketballDunk",
+    "BenchPress"
+  ]
+}

@@ -1,0 +1,30 @@
+# Model Configuration
+model:
+  backbone: 'resnet18'
+  num_classes: 6
+  sequence_length: 12      # Matches your optimized videos
+  input_size: [224, 224]
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.3
+
+# Training Configuration - OPTIMIZED FOR SPEED
+training:
+  batch_size: 4           # Perfect for your system
+  learning_rate: 0.001    
+  num_epochs: 20          # Should be enough
+  patience: 5             
+  device: 'cpu'           # Will auto-detect GPU if available
+  save_interval: 2
+
+# Data Configuration
+data:
+  dataset_path: './data/real_actions_optimized'  # ✅ Using optimized data
+  train_split: 0.7
+  val_split: 0.2
+  test_split: 0.1
+
+# Inference Configuration
+inference:
+  confidence_threshold: 0.5
+  model_path: './checkpoints/best_model.pth'
