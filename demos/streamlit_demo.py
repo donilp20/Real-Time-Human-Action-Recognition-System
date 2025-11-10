@@ -23,8 +23,8 @@ import pandas as pd
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 try:
-    from models import create_model
-    from inference import VideoProcessor, TemporalSmoother
+    from models.models import create_model
+    from inference.inference import VideoProcessor, TemporalSmoother
 except ImportError as e:
     st.error(f"Could not import required modules: {e}")
     st.info("Make sure you're running from the project root directory and all dependencies are installed")

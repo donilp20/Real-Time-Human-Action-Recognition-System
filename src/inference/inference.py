@@ -16,7 +16,7 @@ from collections import deque
 import os
 
 # Import our modules
-from models import create_model
+from models.models import create_model
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)

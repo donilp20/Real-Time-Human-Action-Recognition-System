@@ -99,7 +99,7 @@ def test_model_creation():
     try:
         # Add src to path
         sys.path.append('src')
-        from models import create_model
+        from models.models import create_model
 
         # Test model creation
         model = create_model(
@@ -134,7 +134,7 @@ def test_dataset():
 
     try:
         sys.path.append('src')
-        from dataset import ActionRecognitionDataset
+        from data.dataset import ActionRecognitionDataset
 
         # Test with dummy directory structure
         class_names = ['clapping', 'waving', 'walking', 'sitting', 'jumping']
@@ -163,7 +163,7 @@ def test_inference_components():
 
     try:
         sys.path.append('src')
-        from inference import VideoProcessor, TemporalSmoother
+        from inference.inference import VideoProcessor, TemporalSmoother
 
         # Test video processor
         processor = VideoProcessor(sequence_length=16)

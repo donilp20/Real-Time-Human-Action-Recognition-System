@@ -22,8 +22,8 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import seaborn as sns
 
 # Import our modules (fixed paths)
-from models import create_model
-from dataset import create_data_loaders, create_sample_videos
+from models.models import create_model
+from data.dataset import create_data_loaders, create_sample_videos
 
 # Set up logging
 os.makedirs('logs', exist_ok=True)
