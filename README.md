@@ -447,7 +447,7 @@ Real-Time-Human-Action-Recognition-System/
 
 ## Configuration Reference
 
-### model section
+### Model Section
 
 - **backbone**: CNN architecture (resnet18 or resnet50)
 - **num_classes**: Number of action categories (6)
@@ -457,7 +457,7 @@ Real-Time-Human-Action-Recognition-System/
 - **num_layers**: Number of LSTM layers (2)
 - **dropout**: Regularization rate (0.3)
 
-### training section
+### Training Section
 
 - **batch_size**: Videos per batch (4)
 - **learning_rate**: Optimizer learning rate (0.001)
@@ -466,7 +466,7 @@ Real-Time-Human-Action-Recognition-System/
 - **device**: Training device (cpu or cuda)
 - **save_interval**: Checkpoint frequency in epochs (2)
 
-### data section
+### Data Section
 
 - **dataset_path**: Path to training data
 - **train_split**: Training data ratio (0.7)
