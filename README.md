@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg?style=flat-square)
 
-A production-ready deep learning system for real-time human action recognition using CNN-LSTM architecture. Achieves 85.7% validation accuracy with 18 FPS inference speed on CPU.
+A deep learning system for real-time human action recognition using CNN-LSTM architecture. Achieves 85.7% validation accuracy with 18 FPS inference speed on CPU.
 
 ## Overview
 
