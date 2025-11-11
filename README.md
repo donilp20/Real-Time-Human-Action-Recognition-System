@@ -1,5 +1,5 @@
 # Real-Time-Human-Action-Recognition-System🎬 Real-Time Human Action Recognition System
-A complete, production-ready deep learning system for real-time human action recognition using CNN-LSTM architecture. Built from scratch with PyTorch, OpenCV, and Streamlit.
+A deep learning system for real-time human action recognition using CNN-LSTM architecture. Built with PyTorch, OpenCV, and Streamlit.
 
 Python
 PyTorch
