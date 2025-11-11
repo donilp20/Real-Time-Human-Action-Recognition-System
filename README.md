@@ -6,6 +6,7 @@ PyTorch
 License
 
 🌟 Features
+
 🧠 Deep Learning: CNN-LSTM architecture with ResNet backbone
 
 ⚡ Real-time Processing: 15-30 FPS inference on webcam streams
