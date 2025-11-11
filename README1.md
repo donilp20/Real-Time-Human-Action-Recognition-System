@@ -1,7 +1,5 @@
 # 🎬 Real-Time Human Action Recognition System
 
-<div align="center">
-
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg?style=flat-square)
