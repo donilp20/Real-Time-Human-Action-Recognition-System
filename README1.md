@@ -64,14 +64,14 @@ This project implements a **state-of-the-art real-time action recognition system
 
 ### 🚀 Core Capabilities
 
-- ✅ **Real-time Processing**: 15-30 FPS inference on CPU, 60+ FPS on GPU
-- ✅ **High Accuracy**: 85.7% validation accuracy on real-world UCF101 data
-- ✅ **Multi-modal Input**: Webcam, MP4, AVI, MOV, MKV video formats
-- ✅ **Production Ready**: Complete training → inference → deployment pipeline
-- ✅ **Professional Web UI**: Interactive Streamlit web application
-- ✅ **Temporal Smoothing**: Advanced prediction smoothing (5-frame sliding window)
-- ✅ **GPU Support**: CUDA acceleration for faster inference
-- ✅ **Mobile Optimized**: 48MB model size, efficient on edge devices
+-  **Real-time Processing**: 15-30 FPS inference on CPU, 60+ FPS on GPU
+-  **High Accuracy**: 85.7% validation accuracy on real-world UCF101 data
+-  **Multi-modal Input**: Webcam, MP4, AVI, MOV, MKV video formats
+-  **Production Ready**: Complete training → inference → deployment pipeline
+-  **Professional Web UI**: Interactive Streamlit web application
+-  **Temporal Smoothing**: Advanced prediction smoothing (5-frame sliding window)
+-  **GPU Support**: CUDA acceleration for faster inference
+-  **Mobile Optimized**: 48MB model size, efficient on edge devices
 
 ### 🛠️ Technical Features
 
