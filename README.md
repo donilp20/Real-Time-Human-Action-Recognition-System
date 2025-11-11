@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 
 A deep learning system for real-time human action recognition using CNN-LSTM architecture. Achieves 85.7% validation accuracy with 18 FPS inference speed on CPU.
 
